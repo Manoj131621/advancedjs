@@ -7,7 +7,7 @@ fetch("https://jsonplaceholder.typicode.com/albums").then(
                 var temp="";
                 data.forEach((u)=>{
                     temp+="<tr>";
-                    temp+="<td>"+u.id+"</td>";
+                    temp+="<td id=gen2><a href=details.html?id="+u.id+">"+u.id+"</a></td>";
                     temp+="<td>"+u.userId+"</td>";
                     temp+="<td>"+u.title+"</td></tr>";
                     
