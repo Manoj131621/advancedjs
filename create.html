@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="create.css">
 </head>
 <body>
-    <form class="form" id="myForm">
-        <label>Enter UserId</label>
-        <input type="UserId" name="name" id="userid" required/>
-        <label>Enter Id</label>
-        <input type="ID" name="name" id="id" required/>
-        <label>Enter Title</label>
+    <!-- <form class="form" id="myForm"> -->
+        <div>
+        <label for="man">Enter UserId</label>
+        <input type="text" name="name" id="userid" required/>
+        <label for="van">Enter Id</label>
+        <input type="text" name="name" id="id" required/>
+        <label for="can">Enter Title</label>
         <input type="text" name="name" id="title" required/>
-        <button onclick="Create()" type="submit" name="submit" id="submit">Create album </button>
+        <button onclick="Create()" type="submit" name="submit" id="submit"> Create album </button>
         <span><b class="note">Note :</b> Form action will be set to <b>success</b> on click of submit button.</span>
-    </form>
+        </div>
+    <!-- </form> -->
     <!-- <p id="thank-you-message">
         Thank you for contacting us. We will be in touch with you very soon.
       </p> -->
