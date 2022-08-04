@@ -21,3 +21,10 @@ table, td, th {
     margin-right: 500px; */
     text-indent: 230px;
   }
+  #thank-you-message {
+    display: none;
+  }
+  
+  #thank-you-message.show {
+    display: block;
+  }
